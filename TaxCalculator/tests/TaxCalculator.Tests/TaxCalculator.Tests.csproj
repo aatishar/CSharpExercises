@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Amplify.Dojo.Tax\TaxCalculator.csproj" />
+    <ProjectReference Include="..\..\src\TaxCalculator\TaxCalculator.csproj" />
   </ItemGroup>
 
 </Project>

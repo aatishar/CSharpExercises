@@ -5,14 +5,14 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C49118A3-89D1-4BE1-AAA7-F79CD25A8910}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator", "src\Amplify.Dojo.Tax\TaxCalculator.csproj", "{D33FC7D8-957E-415B-9437-49FAD673EECD}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.Tests", "tests\Amplify.Dojo.Tax.Tests\TaxCalculator.Tests.csproj", "{D4C6911F-FB79-41BB-99A7-0670E46E2775}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{ED05A90E-15BC-4CC2-9E56-DD7748BB47AB}"
 	ProjectSection(SolutionItems) = preProject
 		Exercise\README.md = Exercise\README.md
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator.Tests", "tests\TaxCalculator.Tests\TaxCalculator.Tests.csproj", "{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxCalculator", "src\TaxCalculator\TaxCalculator.csproj", "{334AB304-D148-44D9-9095-BAD477CB6081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,20 +20,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D33FC7D8-957E-415B-9437-49FAD673EECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D33FC7D8-957E-415B-9437-49FAD673EECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D33FC7D8-957E-415B-9437-49FAD673EECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D33FC7D8-957E-415B-9437-49FAD673EECD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D4C6911F-FB79-41BB-99A7-0670E46E2775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D4C6911F-FB79-41BB-99A7-0670E46E2775}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D4C6911F-FB79-41BB-99A7-0670E46E2775}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D4C6911F-FB79-41BB-99A7-0670E46E2775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{334AB304-D148-44D9-9095-BAD477CB6081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{334AB304-D148-44D9-9095-BAD477CB6081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{334AB304-D148-44D9-9095-BAD477CB6081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{334AB304-D148-44D9-9095-BAD477CB6081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{D4C6911F-FB79-41BB-99A7-0670E46E2775} = {C49118A3-89D1-4BE1-AAA7-F79CD25A8910}
+		{B55A5CB1-616D-4B7D-BA88-0F7AA24257CB} = {C49118A3-89D1-4BE1-AAA7-F79CD25A8910}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BA6E2B5-976E-4A7E-820B-4E141D894516}
